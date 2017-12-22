@@ -51,7 +51,7 @@ const Header = props => (
         is={'h2'}
         mt={[0, 1, 1, 1]}
         mx={'auto'}
-        w={[360, 540, 640, 640]}
+        w={[320, 540, 640, 640]}
       />
     </Absolute>
   </div>

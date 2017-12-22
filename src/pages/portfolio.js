@@ -39,7 +39,6 @@ class Portfolio extends React.Component {
         {this.props.data.allContentfulProject.edges.map(({ node }) => (
           <CustomContainer
             mb={[2, 3, 4, 4]}
-            w={[360, 540, 640, 640]}
             key={node.id}
           >
             <article>

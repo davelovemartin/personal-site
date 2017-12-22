@@ -34,11 +34,7 @@ class Blog extends React.Component {
           title={this.props.data.site.siteMetadata.title}
           description={this.props.data.site.siteMetadata.description}
           googleSiteVerification={this.props.data.site.siteMetadata.googleSiteVerification}
-          fbAppId={this.props.data.site.siteMetadata.fbAppId}
           url={this.props.data.site.siteMetadata.url}
-          facebookImage={''}
-          twitter={this.props.data.site.siteMetadata.twitter}
-          preview={''}
           location={this.props.location.pathname}
         />
         {_.chain(this.props.data.allContentfulAsset.edges).filter(['node.id', 'c3Cutoijvr2si44I4uWuoIk']).map(({node}) => (

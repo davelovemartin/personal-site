@@ -18,7 +18,7 @@ const Content = props => (
     <Box
       mx='auto'
       mb={1}
-      w={[360, 540, 640, 640]}
+      w={[320, 540, 640, 640]}
     >
       <CustomText
         f={[1, 2, 3, 3]}

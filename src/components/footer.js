@@ -18,7 +18,7 @@ const Footer = props => (
     <Container
       pt={[2, 3, 4, 4]}
       pb={[2, 3, 4, 4]}
-      w={[360, 540, 640, 640]}
+      w={[320, 540, 640, 640]}
     >
       <header>
         <Text

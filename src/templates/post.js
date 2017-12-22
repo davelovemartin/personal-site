@@ -17,11 +17,7 @@ class Post extends React.Component {
           title={this.props.data.site.siteMetadata.title}
           description={this.props.data.site.siteMetadata.description}
           googleSiteVerification={this.props.data.site.siteMetadata.googleSiteVerification}
-          fbAppId={this.props.data.site.siteMetadata.fbAppId}
           url={this.props.data.site.siteMetadata.url}
-          facebookImage={'https://www.callofthebrave.org/images/dave/call-of-the-brave-1st-edition/facebook-image.jpg'}
-          twitter={this.props.data.site.siteMetadata.twitter}
-          preview={'https://www.callofthebrave.org/images/dave/call-of-the-brave-1st-edition/preview.jpg'}
           location={this.props.location.pathname}
         />
         {_.chain(this.props.data.allContentfulAsset.edges).filter(['node.id', 'c3Cutoijvr2si44I4uWuoIk']).map(({node}) => (
