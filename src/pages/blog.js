@@ -40,8 +40,8 @@ class Blog extends React.Component {
         {_.chain(this.props.data.allContentfulAsset.edges).filter(['node.id', 'c3Cutoijvr2si44I4uWuoIk']).map(({node}) => (
           <Header
             key={node.id}
-            title='Reflections'
-            subtitle=''
+            title="Dave's Blog"
+            subtitle='Book reviews, Website walkthroughs & Reflective essays'
             image={node.sizes}
           />
         )).value()}
