@@ -19,8 +19,8 @@ class Portfolio extends React.Component {
         <CustomHelmet
           title={this.props.data.site.siteMetadata.title}
           description={this.props.data.site.siteMetadata.description}
-          googleSiteVerification={this.props.data.site.siteMetadata.googleSiteVerification}
-          url={this.props.data.site.siteMetadata.url}
+          url={this.props.data.site.siteMetadata.siteUrl}
+          twitter={this.props.data.site.siteMetadata.twitter}
           location={this.props.location.pathname}
         />
         {_.chain(this.props.data.allContentfulAsset.edges).filter(['node.id', 'c3Cutoijvr2si44I4uWuoIk']).map(({node}) => (
@@ -71,10 +71,8 @@ export const query = graphql`
       siteMetadata {
         title
         description
-        googleSiteVerification
-        fbAppId
         twitter
-        url
+        siteUrl
       }
     }
     allContentfulAsset {

@@ -2,10 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Dave Martin`,
     description: `Highly innovative digital creative and driven idealist`,
-    googleSiteVerification: ``,
-    fbAppId: ``,
     twitter: `@justan0therdave`,
-    url: `justan0therdave.github.io`
+    siteUrl: `https://www.justan0therdave.online/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -61,6 +59,9 @@ module.exports = {
       options: {
         trackingId: "UA-36478003-10"
       }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`
     }
   ]
 }
