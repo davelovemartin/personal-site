@@ -43,6 +43,7 @@ class Navbar extends React.Component {
       <CustomFixed
         width={'100%'}
       >
+        <a id='skip-to-content' href='#content'>skip to main content</a>
         <Hide xs sm>
           <nav role='navigation'>
             <Toolbar

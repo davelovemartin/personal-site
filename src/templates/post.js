@@ -33,7 +33,7 @@ class Post extends React.Component {
             <Small
               children={this.props.data.markdownRemark.timeToRead + ' minutes reading time'}
             />
-            <article dangerouslySetInnerHTML={{ __html: this.props.data.markdownRemark.html }} />
+            <article role='article' dangerouslySetInnerHTML={{ __html: this.props.data.markdownRemark.html }} />
           </CustomContainer>
         </CustomSection>
         <Footer />

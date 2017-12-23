@@ -12,6 +12,16 @@ import {
 const Label = styled.label`
   padding: 1rem;
 `
+const CustomTextarea = styled(Textarea)`
+  &:focus {
+    box-shadow: inset 0 0 0 2px #FFCC00;
+  }
+`
+const CustomInput = styled(Input)`
+  &:focus {
+    box-shadow: inset 0 0 0 2px #FFCC00;
+  }
+`
 
 class ContactForm extends React.Component {
   constructor (props) {
@@ -73,7 +83,7 @@ class ContactForm extends React.Component {
           value='contact'
         />
         <Label htmlFor='email'>Email:</Label>
-        <Input
+        <CustomInput
           bg='white'
           className='required email'
           color='black'
@@ -88,7 +98,7 @@ class ContactForm extends React.Component {
           value={this.state.email}
         />
         <Label htmlFor="text">Your message:</Label>
-        <Textarea
+        <CustomTextarea
           bg='white'
           className='required text'
           color='black'
@@ -120,10 +130,6 @@ class ContactForm extends React.Component {
             />
           </FieldFeedback>
         </FieldFeedbacks>
-        <Text
-          p={2}
-          children={this.state.message}
-        />
       </FormWithConstraints>
     )
   }

@@ -20,10 +20,11 @@ const CustomImg = styled(Img)`
 `
 
 const Header = props => (
-  <div
+  <header role='header'
   >
     <CustomImg
       sizes={props.image}
+      alt=''
     />
     <Absolute
       top
@@ -54,7 +55,7 @@ const Header = props => (
         w={[320, 540, 640, 640]}
       />
     </Absolute>
-  </div>
+  </header>
 )
 
 export default Header

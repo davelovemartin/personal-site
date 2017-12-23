@@ -8,9 +8,11 @@ const StyledSection = styled.div`
 `
 
 const CustomSection = props => (
-  <StyledSection
-  {...props}
-  />
+  <main id='content' role='main' tabindex='-1'>
+    <StyledSection
+      {...props}
+    />
+  </main>
 )
 
 export default CustomSection

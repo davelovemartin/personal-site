@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 const CustomHelmet = props => (
   <Helmet
     title={props.title}
+    htmlAttributes={{ lang: 'en' }}
     meta={[
       { charset: 'utf-8' },
       { name: 'description', content: props.description },
@@ -21,7 +22,7 @@ const CustomHelmet = props => (
       '@context': 'http://schema.org',
       '@type': 'Person',
       'name' : 'Dave Martin',
-      'url': 'https://justan0therdave.github.io',
+      'url': 'https://www.justan0therdave.online',
       'sameAs' : [
         'http://www.twitter.com/justan0therdave'
       ]

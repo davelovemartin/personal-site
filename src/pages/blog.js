@@ -41,7 +41,7 @@ class Blog extends React.Component {
           <Header
             key={node.id}
             title="Dave's Blog"
-            subtitle='Book reviews, Website walkthroughs & Reflective essays'
+            subtitle='Book reviews, website walkthroughs & more'
             image={node.sizes}
           />
         )).value()}

@@ -83,6 +83,19 @@ injectGlobal`
     padding: 18px 0;
     text-align: justify;
   }
+  #skip-to-content {
+    padding: 1em;
+    position: absolute;
+    top: -120px;
+    left: 1em;
+    z-index: 1000;
+    color: white;
+  }
+  #skip-to-content:focus {
+    position: absolute;
+    top: 0;
+    background: #222;
+  }
 `
 
 const palette = palx('#8371C1')
