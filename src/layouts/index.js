@@ -18,6 +18,39 @@ injectGlobal`
     color: white;
     text-shadow: 0 1px 1px #000000;
   }
+  @font-face {
+      font-family: 'Raleway';
+      src: url('/fonts/raleway-light.eot');
+      src: url('/fonts/raleway-light.eot?#iefix') format('embedded-opentype'),
+           url('/fonts/raleway-light.woff2') format('woff2'),
+           url('/fonts/raleway-light.woff') format('woff'),
+           url('/fonts/raleway-light.ttf') format('truetype');
+      font-weight: 300;
+      font-style: normal;
+
+  }
+  @font-face {
+      font-family: 'Raleway';
+      src: url('/fonts/raleway-lightitalic.eot');
+      src: url('/fonts/raleway-lightitalic.eot?#iefix') format('embedded-opentype'),
+           url('/fonts/raleway-lightitalic.woff2') format('woff2'),
+           url('/fonts/raleway-lightitalic.woff') format('woff'),
+           url('/fonts/raleway-lightitalic.ttf') format('truetype');
+      font-weight: 300;
+      font-style: italic;
+
+  }
+  @font-face {
+      font-family: 'Playfair Display';
+      src: url('/fonts/playfairdisplay-bolditalic.eot');
+      src: url('/fonts/playfairdisplay-bolditalic.eot?#iefix') format('embedded-opentype'),
+           url('/fonts/playfairdisplay-bolditalic.woff2') format('woff2'),
+           url('/fonts/playfairdisplay-bolditalic.woff') format('woff'),
+           url('/fonts/playfairdisplay-bolditalic.ttf') format('truetype');
+      font-weight: 700;
+      font-style: italic;
+
+  }
   h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", serif;
     font-weight: 700;

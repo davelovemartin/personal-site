@@ -33,12 +33,28 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        fonts: [
-          `Playfair+Display:400i,700i|Raleway:300`
+        name: `Dave Martin`,
+        short_name: `Dave Martin`,
+        start_url: `/`,
+        background_color: `#1d1b3f`,
+        theme_color: `#FFCC00`,
+        display: `minimal-ui`,
+        icons: [
+          {
+            src: `/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`
+          },
+          {
+            src: `/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`
+          }
         ]
       }
-    }
+    },
+    `gatsby-plugin-offline`
   ]
 }
