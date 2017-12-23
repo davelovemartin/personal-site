@@ -3,7 +3,7 @@ module.exports = {
     title: `Dave Martin`,
     description: `Highly innovative digital creative and driven idealist`,
     twitter: `@justan0therdave`,
-    siteUrl: `https://www.justan0therdave.online/`
+    siteUrl: `https://www.justan0therdave.online`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
