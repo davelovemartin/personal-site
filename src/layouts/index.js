@@ -114,6 +114,7 @@ injectGlobal`
     background-color: #ffbf47;
     color: #4c2c92;
     outline: 3px solid #ffbf47;
+    text-shadow: 0 1px 1px #fff;
   }
   article > section > p > img, article > p > img {
     width: 100%;
