@@ -19,8 +19,7 @@ const CustomHelmet = props => (
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
-      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#ffcc00' },
-      { rel: 'me', href: 'https://plus.google.com/u/0/+DaveMartin_justanotherdavemartin' }
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#ffcc00' }
     ]}
   >
     <script type='application/ld+json'>{`
