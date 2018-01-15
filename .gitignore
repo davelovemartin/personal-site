@@ -8,3 +8,4 @@ public/
 yarn-error.log
 static/fonts/*.*
 gatsby-config.js
+.vscode/launch.json
