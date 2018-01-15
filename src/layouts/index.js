@@ -110,6 +110,11 @@ injectGlobal`
   a:active {
     color: #CF72B9;
   }
+  a:focus {
+    background-color: #ffbf47;
+    color: #4c2c92;
+    outline: 3px solid #ffbf47;
+  }
   article > section > p > img, article > p > img {
     width: 100%;
     padding-bottom: 18px;
