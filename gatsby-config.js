@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
     title: `Dave Martin`,
@@ -27,8 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `lxr91lh2a5zw`,
-        accessToken: `bced456d310144321e4c525c39a5213de96ee3900d6d516d8a6281e01c4703b8`
+        spaceId: process.env.CONTENTFUL_SPACE_ID || '',
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN || '',
       }
     },
     {
