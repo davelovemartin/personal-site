@@ -45,7 +45,7 @@ class Post extends React.Component {
 export default Post
 
 export const query = graphql`
-  query PostQuery($slug: String!) {
+  query PostQuery($slug: String!, $id: String!) {
     site {
       siteMetadata {
         title
@@ -59,7 +59,8 @@ export const query = graphql`
       title
       subtitle
     }
-    markdownRemark {
+    markdownRemark(id: { eq: $id }) {
+      id
       html
       timeToRead
     }

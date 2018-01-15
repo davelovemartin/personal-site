@@ -7,6 +7,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         allContentfulPost {
           edges {
             node {
+              id
               slug
             }
           }
@@ -23,7 +24,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           path: '/blog/' + node.slug,
           component: path.resolve(`./src/templates/post.js`),
           context: {
-            slug: node.slug
+            slug: node.slug,
+            id: node.id + 'articleTextNode >>> MarkdownRemark'
           }
         })
       })

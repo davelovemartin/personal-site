@@ -80,7 +80,7 @@ class Index extends React.Component {
             </CustomText>
             <Content
               mb={1}
-              children='I make Progressive Web Applications by taking a mobile first approach, writing semantic HTML and enhancing with JavaScript (Vanilla, React and Node). I also enjoy reflective writing, copywrighting, and editing.'
+              children='I make Progressive Web Applications by taking a mobile-first approach, writing semantic HTML, styling with CSS (and Sass), and enhancing with JavaScript (Vanilla, React and Node). I also enjoy reflective writing, copywriting, and editing.'
             />
             <CustomText
               f={[1, 2, 3, 3]}

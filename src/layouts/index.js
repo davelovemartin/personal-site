@@ -3,6 +3,8 @@ import palx from 'palx'
 import { Provider } from 'rebass'
 import { injectGlobal } from 'styled-components'
 
+require('prismjs/themes/prism-twilight.css')
+
 injectGlobal`
   * {
     box-sizing: border-box;
