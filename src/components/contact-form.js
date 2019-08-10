@@ -113,6 +113,7 @@ class ContactForm extends React.Component {
           type='text'
           value={this.state.message}
         />
+        <div data-netlify-recaptcha="true"></div>
         <Button
           bg={'base'}
           children='SEND YOUR MESSAGE'
