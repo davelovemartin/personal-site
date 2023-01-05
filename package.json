@@ -7,7 +7,7 @@
     "@fortawesome/fontawesome": "^0.0.21",
     "@fortawesome/fontawesome-free-solid": "^0.0.17",
     "@fortawesome/react-fontawesome": "^0.0.12",
-    "gatsby": "^1.9.119",
+    "gatsby": "^5.3.3",
     "gatsby-image": "^1.0.24",
     "gatsby-link": "^1.6.28",
     "gatsby-plugin-google-analytics": "^1.0.14",
